@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-03T16:44:43.636917+00:00",
+  "host_python": "3.12.14",
+  "platform": "linux",
+  "backend": "bubblewrap",
+  "binary": "/usr/bin/bwrap",
+  "unsafe_fallback": false,
+  "repository_code_executed": false,
+  "bubblewrap_version": "bubblewrap 0.12.0",
+  "status": "blocked_sandbox",
+  "reason": "Missing or inconsistent Bubblewrap completion status: bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted\n",
+  "meaning": "Live isolation and V11 end-to-end tests NOT RUN; no host fallback"
+}

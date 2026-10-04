@@ -1,0 +1,19 @@
+{
+  "verified_at_utc": "2026-10-02T15:57:33Z",
+  "python": "3.12.14",
+  "environment": "isolated venv, no third-party packages",
+  "unittest_count": 40,
+  "unittest_passed": 40,
+  "milestones_passed": 10,
+  "milestones_total": 10,
+  "independent_eval": {
+    "expected_behavior_passed": 4,
+    "cases": 4,
+    "tasks_solved": 3
+  },
+  "compileall": "passed",
+  "network_api_tests": "not run",
+  "adapter_transport_tests": "stubbed only",
+  "sources_date": "2026-10-02",
+  "scope": "trusted offline fixture; not a sandbox or SOTA benchmark"
+}

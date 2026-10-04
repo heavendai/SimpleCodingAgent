@@ -1,0 +1,6 @@
+
+V11 执行沙箱与拒绝降级: blocked_sandbox
+Missing or inconsistent Bubblewrap completion status: bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted
+
+patches=0; tests=[]; model_calls=0
+Artifacts: <project-root>/runs/v11-q31kgg7e

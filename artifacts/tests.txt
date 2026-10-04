@@ -1,0 +1,45 @@
+test_api_payload_and_decision_with_stubbed_transport (test_project.AdapterTests.test_api_payload_and_decision_with_stubbed_transport) ... ok
+test_api_requires_opt_in_without_network (test_project.AdapterTests.test_api_requires_opt_in_without_network) ... ok
+test_approval_is_exact_and_once (test_project.BoundaryTests.test_approval_is_exact_and_once) ... ok
+test_approval_pauses_without_writing (test_project.BoundaryTests.test_approval_pauses_without_writing) ... ok
+test_cannot_modify_tests (test_project.BoundaryTests.test_cannot_modify_tests) ... ok
+test_model_output_schema_validation (test_project.BoundaryTests.test_model_output_schema_validation) ... ok
+test_patch_conflict_no_change (test_project.BoundaryTests.test_patch_conflict_no_change) ... ok
+test_path_escape_and_hidden_paths (test_project.BoundaryTests.test_path_escape_and_hidden_paths) ... ok
+test_reviewer_cannot_write_even_with_approval (test_project.BoundaryTests.test_reviewer_cannot_write_even_with_approval) ... ok
+test_symlink_cannot_redirect_patch_into_tests (test_project.BoundaryTests.test_symlink_cannot_redirect_patch_into_tests) ... ok
+test_symlink_escape (test_project.BoundaryTests.test_symlink_escape) ... ok
+test_test_runner_uses_timeout_no_shell_and_stripped_environment (test_project.BoundaryTests.test_test_runner_uses_timeout_no_shell_and_stripped_environment) ... ok
+test_test_timeout_reports_failure (test_project.BoundaryTests.test_test_timeout_reports_failure) ... ok
+test_unavailable_shell_is_denied (test_project.BoundaryTests.test_unavailable_shell_is_denied) ... ok
+test_character_budget_stops_before_model (test_project.ReliabilityTests.test_character_budget_stops_before_model) ... ok
+test_checkpoint_resume_after_patch_no_duplicate_edit (test_project.ReliabilityTests.test_checkpoint_resume_after_patch_no_duplicate_edit) ... ok
+test_cli_pause_resume_across_constructions (test_project.ReliabilityTests.test_cli_pause_resume_across_constructions) ... ok
+test_completed_resume_does_no_more_work (test_project.ReliabilityTests.test_completed_resume_does_no_more_work) ... ok
+test_external_change_invalidates_test_evidence (test_project.ReliabilityTests.test_external_change_invalidates_test_evidence) ... ok
+test_false_completion_is_rejected (test_project.ReliabilityTests.test_false_completion_is_rejected) ... ok
+test_fixed_repository_does_not_need_patch (test_project.ReliabilityTests.test_fixed_repository_does_not_need_patch) ... ok
+test_hidden_symlink_target_is_denied (test_project.ReliabilityTests.test_hidden_symlink_target_is_denied) ... ok
+test_large_file_change_invalidates_checkpoint (test_project.ReliabilityTests.test_large_file_change_invalidates_checkpoint) ... ok
+test_model_call_budget_stops (test_project.ReliabilityTests.test_model_call_budget_stops) ... ok
+test_skill_load_is_explicit_and_curated (test_project.ReliabilityTests.test_skill_load_is_explicit_and_curated) ... ok
+test_stale_checkpoint_is_rejected (test_project.ReliabilityTests.test_stale_checkpoint_is_rejected) ... ok
+test_test_evidence_invalidated_by_patch (test_project.ReliabilityTests.test_test_evidence_invalidated_by_patch) ... ok
+test_tool_call_budget_stops (test_project.ReliabilityTests.test_tool_call_budget_stops) ... ok
+test_unsupported_approval_flag_is_not_ignored (test_project.ReliabilityTests.test_unsupported_approval_flag_is_not_ignored) ... ok
+test_v08_approval_mode_survives_automatic_rebuild (test_project.ReliabilityTests.test_v08_approval_mode_survives_automatic_rebuild) ... ok
+test_wall_clock_budget_stops (test_project.ReliabilityTests.test_wall_clock_budget_stops) ... ok
+test_all_ten_milestones (test_project.VersionTests.test_all_ten_milestones) ... ok
+test_exactly_ten_versions (test_project.VersionTests.test_exactly_ten_versions) ... ok
+test_v02_uses_observation_loop (test_project.VersionTests.test_v02_uses_observation_loop) ... ok
+test_v03_does_not_claim_verified (test_project.VersionTests.test_v03_does_not_claim_verified) ... ok
+test_v04_observes_failure_then_pass (test_project.VersionTests.test_v04_observes_failure_then_pass) ... ok
+test_v06_context_compacts_and_keeps_facts (test_project.VersionTests.test_v06_context_compacts_and_keeps_facts) ... ok
+test_v07_repair_is_feedback_driven (test_project.VersionTests.test_v07_repair_is_feedback_driven) ... ok
+test_v09_read_only_separate_reviewer (test_project.VersionTests.test_v09_read_only_separate_reviewer) ... ok
+test_v10_routes_and_persists_shared_trace (test_project.VersionTests.test_v10_routes_and_persists_shared_trace) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 3.396s
+
+OK

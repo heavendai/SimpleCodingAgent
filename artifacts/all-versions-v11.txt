@@ -1,0 +1,56 @@
+
+V01 模型接口: suggested
+建议：分母使用 len(values)，并让空序列返回 0.0；尚未读写文件或验证。
+patches=0; tests=[]; model_calls=1
+Artifacts: <project-root>/runs/v01-sc3vprdc
+
+V02 只读工具与循环: inspected
+已通过 search/read 定位 mean 的分母错误；本版只有只读工具。
+patches=0; tests=[]; model_calls=3
+Artifacts: <project-root>/runs/v02-q28m_mpu
+
+V03 定点补丁: modified_unverified
+补丁已写入；本版尚无执行测试的能力，结果未验证。
+patches=1; tests=[]; model_calls=4
+Artifacts: <project-root>/runs/v03-25vnsomk
+
+V04 执行与验证: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=1; tests=[False, True]; model_calls=6
+Artifacts: <project-root>/runs/v04-36_04dcs
+
+V05 权限与边界: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=1; tests=[False, True]; model_calls=6
+Artifacts: <project-root>/runs/v05-lwgem8k8
+
+V06 仓库上下文: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=1; tests=[False, True]; model_calls=8
+Artifacts: <project-root>/runs/v06-9fh7lrwz
+
+V07 计划与迭代修复: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, False, True]; model_calls=12
+Artifacts: <project-root>/runs/v07-71p_5b16
+
+V08 检查点与恢复: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, False, True]; model_calls=12
+Artifacts: <project-root>/runs/v08-8danjfkr
+
+V09 角色协作: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, True]; model_calls=19
+Artifacts: <project-root>/runs/v09-vihwtpe0
+
+V10 预算路由追踪评测: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, True]; model_calls=19
+Artifacts: <project-root>/runs/v10-h6_1b5j4
+
+V11 执行沙箱与拒绝降级: blocked_sandbox
+Missing or inconsistent Bubblewrap completion status: bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted
+
+patches=0; tests=[]; model_calls=0
+Artifacts: <project-root>/runs/v11-gvn8bagn

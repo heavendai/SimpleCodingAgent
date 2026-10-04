@@ -1,0 +1,6 @@
+[project]
+name = "simple-codingagent"
+version = "1.1.0"
+description = "Eleven minimal, offline-first coding-agent lessons"
+requires-python = ">=3.10"
+dependencies = []

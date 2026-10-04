@@ -1,0 +1,30 @@
+flowchart TD
+    User[User goal / Host] --> State[State and plan]
+    State --> Context[Repo context / skills / compaction]
+    Context --> Router[Model router]
+    Router --> Model[Model interface]
+    Model --> Decision{Decision}
+    Decision -->|tool call| Policy[Schema and permission check]
+    Policy --> Registry[Tool registry]
+    Registry --> Read[Read / search]
+    Registry --> Patch[Exact patch / diff]
+    Registry --> Test[Workspace.run_tests]
+    Test --> Backend{Host-selected backend}
+    Backend -->|V01-V10 only| Host[Trusted fixture host runner]
+    Backend -->|V11 required| Sandbox[Bubblewrap: readonly snapshot / namespaces / limits]
+    Sandbox -->|setup denied| Blocked[blocked_sandbox / no fallback]
+    Registry --> Reviewer[Read-only reviewer\nseparate context]
+    Read --> Observation[Observation]
+    Patch --> Observation
+    Test --> Observation
+    Reviewer --> Observation
+    Observation --> State
+    Decision -->|final| Gate{Fresh verification evidence?}
+    Gate -->|yes| Done[Verified result]
+    Gate -->|no| Reject[Unverified / reject claim]
+    State --> Checkpoint[Checkpoint and fingerprints]
+    Checkpoint --> State
+    Budget[Shared calls / tools / chars / time budget] -.-> Model
+    Budget -.-> Registry
+    Trace[JSONL trace] -.-> State
+    Eval[Independent outcome evaluator] -.-> Done

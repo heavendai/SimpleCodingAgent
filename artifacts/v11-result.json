@@ -1,0 +1,14 @@
+{
+  "version": 11,
+  "status": "blocked_sandbox",
+  "message": "Missing or inconsistent Bubblewrap completion status: bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted\n",
+  "patches": 0,
+  "test_outcomes": [],
+  "model_calls": 0,
+  "tool_calls": 0,
+  "model_characters": 0,
+  "run_dir": "<project-root>/runs/v11-gvn8bagn",
+  "plan": [],
+  "compacted": false,
+  "execution_backend": "bubblewrap"
+}

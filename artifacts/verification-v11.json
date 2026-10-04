@@ -1,0 +1,25 @@
+{
+  "project_version": "1.1.0",
+  "checked_at": "2026-10-03T16:50:57.888652+00:00",
+  "host_python": "3.12.14",
+  "unit_test_discovered": 73,
+  "unit_test_passed": 65,
+  "live_sandbox_tests_skipped": 8,
+  "legacy_milestones_expected": 10,
+  "legacy_milestones_matched": 10,
+  "all_versions_exit_code": 1,
+  "v11_status": "blocked_sandbox",
+  "v11_model_calls": 0,
+  "v11_patches": 0,
+  "v11_repository_tests": 0,
+  "reason": "bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted",
+  "compileall": "passed",
+  "legacy_toy_eval": {
+    "harness_passed": 4,
+    "solved": 3,
+    "total": 4
+  },
+  "real_api_calls": 0,
+  "unsafe_sandbox_fallback": false,
+  "scope": "Real isolation integration and V11 verified end-to-end NOT RUN on this host"
+}
