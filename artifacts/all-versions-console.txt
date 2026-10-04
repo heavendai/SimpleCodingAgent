@@ -1,0 +1,50 @@
+
+V01 模型接口: suggested
+建议：分母使用 len(values)，并让空序列返回 0.0；尚未读写文件或验证。
+patches=0; tests=[]; model_calls=1
+Artifacts: <project-root>/runs/verified/v01-gp8_p9un
+
+V02 只读工具与循环: inspected
+已通过 search/read 定位 mean 的分母错误；本版只有只读工具。
+patches=0; tests=[]; model_calls=3
+Artifacts: <project-root>/runs/verified/v02-jbrq5b3_
+
+V03 定点补丁: modified_unverified
+补丁已写入；本版尚无执行测试的能力，结果未验证。
+patches=1; tests=[]; model_calls=4
+Artifacts: <project-root>/runs/verified/v03-6mjw4w24
+
+V04 执行与验证: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=1; tests=[False, True]; model_calls=6
+Artifacts: <project-root>/runs/verified/v04-6lpiu276
+
+V05 权限与边界: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=1; tests=[False, True]; model_calls=6
+Artifacts: <project-root>/runs/verified/v05-rov_mc4w
+
+V06 仓库上下文: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=1; tests=[False, True]; model_calls=8
+Artifacts: <project-root>/runs/verified/v06-almbkrxk
+
+V07 计划与迭代修复: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, False, True]; model_calls=12
+Artifacts: <project-root>/runs/verified/v07-3sjwwoop
+
+V08 检查点与恢复: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, False, True]; model_calls=12
+Artifacts: <project-root>/runs/verified/v08-9619u1dt
+
+V09 角色协作: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, True]; model_calls=19
+Artifacts: <project-root>/runs/verified/v09-r89r2_0h
+
+V10 预算路由追踪评测: verified
+修复完成；当前代码通过提供的 4 项测试。
+patches=2; tests=[False, True]; model_calls=19
+Artifacts: <project-root>/runs/verified/v10-9kceh3fu

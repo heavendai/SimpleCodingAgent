@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "workspace": "<project-root>/runs/v11-gvn8bagn/workspace",
+  "execution_backend": "bubblewrap",
+  "fingerprint": {
+    "AGENTS.md": "e8255e859c68bc685c58f7420869cdbb3b97c21d43be5177165d85a0b272026d",
+    "README.md": "142326dae0059ea7bc577d6884b6d09ed4eb1a9a904b484c5198747a05d0b4a1",
+    "skills/testing.md": "0c3e427b6a3fc8181c39be88e1a49e4abc6a7ccc4d9f615f450a88e33e3d918f",
+    "stats.py": "ea8a6840107c4659795ec3f0f8050f35d8235df1124c3b1f1a12d42d98959bd4",
+    "tests/test_stats.py": "1cb329e7057a8b557875afe8ff4f1b35b75bd29a1f32e9328bce638563cc63e5"
+  },
+  "state": {
+    "goal": "Fix mean(values); empty input must return 0.0",
+    "history": [],
+    "facts": {
+      "files": {},
+      "patches": 0,
+      "tests": [],
+      "review": null,
+      "plan": [],
+      "repo": null,
+      "skills": {},
+      "read_paths": []
+    },
+    "summary": "",
+    "final": "Missing or inconsistent Bubblewrap completion status: bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted\n",
+    "status": "blocked_sandbox",
+    "steps": 0,
+    "pending": null
+  },
+  "budget": {
+    "max_calls": 35,
+    "max_tool_calls": 32,
+    "max_model_chars": 180000,
+    "max_seconds": 30.0,
+    "calls": 0,
+    "tool_calls": 0,
+    "model_chars": 0,
+    "elapsed_before": 0.0258423049999692
+  }
+}

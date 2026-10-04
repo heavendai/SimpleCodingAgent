@@ -1,0 +1,50 @@
+{
+  "version": 10,
+  "provider": "offline deterministic demonstration",
+  "tasks": [
+    {
+      "task": "wrong_denominator",
+      "task_solved": true,
+      "expected_solved": true,
+      "harness_pass": true,
+      "status": "verified",
+      "model_calls": 19,
+      "tool_calls": 16,
+      "model_characters": 56942
+    },
+    {
+      "task": "missing_empty_guard",
+      "task_solved": true,
+      "expected_solved": true,
+      "harness_pass": true,
+      "status": "verified",
+      "model_calls": 19,
+      "tool_calls": 16,
+      "model_characters": 52272
+    },
+    {
+      "task": "already_correct",
+      "task_solved": true,
+      "expected_solved": true,
+      "harness_pass": true,
+      "status": "verified",
+      "model_calls": 8,
+      "tool_calls": 7,
+      "model_characters": 19153
+    },
+    {
+      "task": "unsupported_implementation",
+      "task_solved": false,
+      "expected_solved": false,
+      "harness_pass": true,
+      "status": "unverified_completion_rejected",
+      "model_calls": 7,
+      "tool_calls": 6,
+      "model_characters": 18255
+    }
+  ],
+  "solved": 3,
+  "harness_passed": 4,
+  "total": 4,
+  "interpretation": "Toy orchestration regression only; no SOTA or general coding claim"
+}
